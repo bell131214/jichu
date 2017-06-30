@@ -1,0 +1,52 @@
+<?xml version-"1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html"; charset="UTF-8"/>
+    <title>留言薄</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+</head>
+<body>
+    <div id="main">
+        <h1>留言薄</h1>
+        <div id="form-area">
+            <p>输入留言：</p>
+            <form action="/post" method="post">
+                <table>
+                    <tr>
+                        <th>姓名</th>
+                        <td>
+                            <input type="text" size="20" name="name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>评论</th>
+                        <td>
+                            <textarea rows="5" cols="40" name="comments"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <p><button type="submit">提交</button></p>
+            </form>
+        </div>
+            <div id="entries-arer">
+                <h2>历史留言</h2>
+                <div class="entry">
+                <h3>XX留言(2017/6/2 15:00:00):</h3>
+                <p>评论内容<br/>评论内容</p>
+                <h3>XX留言(2017/6/2 15:00:00):</h3>
+                <p>评论内容<br/>评论内容</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
